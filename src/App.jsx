@@ -110,7 +110,7 @@ function App() {
               <ShopifyBuyButton 
                 variantId={VARIANT_ID}
                 quantity={quantity}
-                buttonText={`Comprar ahora - Envío gratis`} 
+                buttonText="Comprar ahora" 
                 className="w-full text-lg py-4"
               />
               
