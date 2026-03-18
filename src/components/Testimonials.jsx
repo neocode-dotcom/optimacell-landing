@@ -4,14 +4,14 @@ const testimonials = [
     role: "Profesional y atleta",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
     rating: 5,
-    text: "Desde que uso OptimacellT, mi recuperación entre entrenamientos es mucho más rápida. Siento que tengo energía todo el día sin los típicos bajones."
+    text: "Desde que uso Optimacell, mi recuperación entre entrenamientos es mucho más rápida. Siento que tengo energía todo el día sin los típicos bajones."
   },
   {
     name: "Carlos R.",
     role: "Emprendedor",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     rating: 5,
-    text: "Trabajo largas horas y necesitaba algo que me mantuviera enfocado sin depender del café. OptimacellT cambió completamente mi rutina matutina."
+    text: "Trabajo largas horas y necesitaba algo que me mantuviera enfocado sin depender del café. Optimacell cambió completamente mi rutina matutina."
   },
   {
     name: "Ana L.",
@@ -34,7 +34,7 @@ export default function Testimonials({ id }) {
             Lo que dicen nuestros clientes
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Miles de personas ya han transformado su energía con OptimacellT.
+            Miles de personas ya han transformado su energía con Optimacell.
           </p>
         </div>
         

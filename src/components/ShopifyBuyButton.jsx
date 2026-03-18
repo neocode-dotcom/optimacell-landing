@@ -115,7 +115,7 @@ export default function ShopifyBuyButton({
 
 export function BuyButtonInline({ 
   variantId,
-  productTitle = "OptimacellT",
+  productTitle = "Optimacell",
   productDescription = "Nutrición Avanzada en Forma Activa",
   price = "32.99",
   compareAtPrice = "44.99",

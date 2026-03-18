@@ -5,7 +5,7 @@ export default function Benefits({ id }) {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <span className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-              ¿Por qué OptimacellT?
+              ¿Por qué Optimacell?
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               La Diferencia Metilada
@@ -54,13 +54,13 @@ export default function Benefits({ id }) {
           <div className="relative">
             <img 
               src="/assets/product/optimacellt-hombre-productividad.png" 
-              alt="OptimacellT - Suplemento premium para tu estilo de vida" 
+              alt="Optimacell - Suplemento premium para tu estilo de vida" 
               className="rounded-2xl shadow-2xl w-full"
             />
             <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-3">
               <img 
                 src="/assets/product/optimacellt-producto-packshot.png" 
-                alt="OptimacellT" 
+                alt="Optimacell" 
                 className="w-16 h-16 object-contain"
               />
             </div>

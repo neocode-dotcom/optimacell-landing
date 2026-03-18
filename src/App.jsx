@@ -52,18 +52,18 @@ function App() {
               Oferta Especial
             </span>
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Consigue OptimacellT ahora
+              Consigue Optimacell ahora
             </h2>
             
             <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md mx-auto">
               <img 
                 src={PRODUCT_IMAGE} 
-                alt="OptimacellT" 
+                alt="Optimacell" 
                 className="w-48 h-48 object-cover rounded-xl mx-auto mb-6"
               />
               
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                OptimacellT
+                Optimacell
               </h3>
               <p className="text-gray-500 mb-4">
                 Nutrición Avanzada en Forma Activa | 90 cápsulas
