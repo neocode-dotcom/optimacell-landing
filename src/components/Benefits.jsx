@@ -53,13 +53,13 @@ export default function Benefits({ id }) {
           
           <div className="relative">
             <img 
-              src="/src/assets/product/optimacellt-hombre-productividad.png" 
+              src="/assets/product/optimacellt-hombre-productividad.png" 
               alt="OptimacellT - Suplemento premium para tu estilo de vida" 
               className="rounded-2xl shadow-2xl w-full"
             />
             <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-3">
               <img 
-                src="/src/assets/product/optimacellt-producto-packshot.png" 
+                src="/assets/product/optimacellt-producto-packshot.png" 
                 alt="OptimacellT" 
                 className="w-16 h-16 object-contain"
               />

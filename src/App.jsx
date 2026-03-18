@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import ShopifyBuyButton from './components/ShopifyBuyButton';
 
 const VARIANT_ID = import.meta.env.VITE_SHOPIFY_VARIANT_ID || 'gid://shopify/ProductVariant/44609465647127';
-const PRODUCT_IMAGE = '/src/assets/product/optimacellt-producto-packshot.png';
+const PRODUCT_IMAGE = '/assets/product/optimacellt-producto-packshot.png';
 const COMPARE_PRICE = 44.99;
 const CURRENT_PRICE = 32.99;
 const DISCOUNT = Math.round((1 - CURRENT_PRICE / COMPARE_PRICE) * 100);

@@ -64,7 +64,7 @@ export default function Hero({ onBuyClick }) {
             <div className="relative mx-auto max-w-md">
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-amber-400 rounded-3xl blur-2xl opacity-30"></div>
               <img 
-                src="/src/assets/product/optimacellt-hero-lifestyle-principal.png" 
+                src="/assets/product/optimacellt-hero-lifestyle-principal.png" 
                 alt="OptimacellT - Suplemento Premium para Energía y Vitalidad" 
                 className="relative rounded-3xl shadow-2xl w-full object-cover"
               />
