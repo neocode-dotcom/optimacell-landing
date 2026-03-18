@@ -7,11 +7,11 @@ const faqs = [
   },
   {
     question: "¿Cuánto tiempo tardaré en ver resultados?",
-    answer: " muchos clientes reportan sentir más energía desde los primeros días. Sin embargo, los beneficios completos del soporte celular buildup acumulan durante 2-4 semanas de uso consistente."
+    answer: "Muchos clientes reportan sentir más energía desde los primeros días. Sin embargo, los beneficios completos del soporte celular se acumulan durante 2-4 semanas de uso consistente."
   },
   {
     question: "¿Optimacell tiene efectos secundarios?",
-    answer: "Optimacell está formulado con ingredientes naturales de alta pureza. No contiene gluten, lácteos, ni artificials. Como con cualquier suplemento, recomendamos consultar con tu médico si estás embarazada, amamantando, o tienes condiciones médicas específicas."
+    answer: "Optimacell está formulado con ingredientes naturales de alta pureza. No contiene gluten, lácteos, ni artificiales. Como con cualquier suplemento, recomendamos consultar con tu médico si estás embarazada, amamantando, o tienes condiciones médicas específicas."
   },
   {
     question: "¿Puedo tomar Optimacell con otros suplementos?",
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "¿Cómo debo almacenar Optimacell?",
-    answer: "Guarda el producto en un lugar fresco y seco,远离 de la luz solar directa. No necesitas refrigeración. Mantén el frasco cerrado fuera del alcance de niños."
+    answer: "Guarda el producto en un lugar fresco y seco, alejado de la luz solar directa. No necesitas refrigeración. Mantén el frasco cerrado fuera del alcance de niños."
   }
 ];
 
@@ -52,11 +52,11 @@ export default function FAQ({ id }) {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-6 py-5 text-left flex items-center justify-between gap-4"
               >
-                <span className="font-semibold text-gray-900">
+                <span className="font-semibold text-gray-900 text-left">
                   {faq.question}
                 </span>
                 <svg 
-                  className={`w-5 h-5 text-gray-500 transition-transform ${openIndex === index ? 'rotate-180' : ''}`}
+                  className={`w-5 h-5 text-gray-500 transition-transform flex-shrink-0 ${openIndex === index ? 'rotate-180' : ''}`}
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -65,9 +65,9 @@ export default function FAQ({ id }) {
                 </svg>
               </button>
               <div 
-                className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-40' : 'max-h-0'}`}
+                className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96' : 'max-h-0'}`}
               >
-                <p className="px-6 pb-5 text-gray-600">
+                <p className="px-6 pb-5 text-gray-600 leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
