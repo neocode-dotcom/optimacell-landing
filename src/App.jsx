@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
@@ -39,11 +39,8 @@ function App() {
         <Hero onBuyClick={scrollToCheckout} />
         
         <Benefits id="beneficios" />
-        
         <HowToUse id="como-tomar" />
-        
         <Testimonials id="testimonios" />
-        
         <FAQ id="faq" />
         
         <section id="checkout" className="py-20 bg-gray-50">
@@ -138,6 +135,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

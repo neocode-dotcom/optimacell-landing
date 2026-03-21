@@ -58,15 +58,15 @@ export default function ShopifyBuyButton({
       }
 
       const checkoutUrl = data.cartCreate.cart.checkoutUrl;
-      window.open(checkoutUrl, '_blank');
-      
       setAdded(true);
       if (onAddedToCart) onAddedToCart();
-      
-      setTimeout(() => setAdded(false), 2000);
+      setTimeout(() => {
+        setAdded(false);
+        window.location.href = checkoutUrl;
+      }, 300);
     } catch (error) {
       console.error('Error adding to cart:', error);
-      window.open(`https://${SHOPIFY_DOMAIN}/cart`, '_blank');
+      window.location.href = `https://${SHOPIFY_DOMAIN}/cart`;
     } finally {
       setLoading(false);
     }
